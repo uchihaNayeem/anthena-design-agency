@@ -1,0 +1,17 @@
+.nav-link{
+  color: black;
+}
+.nav-item a:hover{
+  color: black;
+  font-weight: 600;
+  transition: 0.1s;
+}
+.customButton{
+  border: none;
+  border-radius: 27px 0px;
+  background-image: linear-gradient(to right,#1ad4bf, #06abee);
+  padding: 0px;
+  width: 133px;
+  height: 44px;
+  color: white;
+}
