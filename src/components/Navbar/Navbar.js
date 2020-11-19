@@ -14,11 +14,10 @@ const Navbar = () => {
                     <FontAwesomeIcon icon={faBars} />
                     </span>
                 </button>
-
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto mt-2">
                         <li className="nav-item ">
-                            <a className="nav-link ml-3" href="#">Home <span className="sr-only">(current)</span></a>
+                            <a className="nav-link ml-3" href="#">Home <span className="sr-only"></span></a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link ml-3" href="#">About</a>
@@ -32,7 +31,7 @@ const Navbar = () => {
                         <li className="nav-item mr-3 ml-3">
                             <a className="nav-link" href="#">Contact</a>
                         </li>
-                        <button className="btn customButton">Contact us</button>
+                        <button className="btn customButton">Contact Us</button>
                     </ul>
                 </div>
             </nav>
