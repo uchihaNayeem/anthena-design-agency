@@ -13,8 +13,9 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/price">
+        <Route path="/">
           <Navbar></Navbar>
+          <Service></Service>
           <PriceTable></PriceTable>
         </Route>
         <Route path="/service">
