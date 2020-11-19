@@ -17,29 +17,29 @@ const Service = () => {
       <div class="space-between row text-center mb-5 mt-5">
             <div class="col-lg-3 col-md-6 col-sm-12  ">
               <div class="center cat1  ">
-               <img class="w-50" src={img1} alt=""/>
-               <h4>Experience Design</h4>
+               <img class="w-25" src={img1} alt=""/>
+               <h5>Experience Design</h5>
                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, suscipit?</small>
                </div>
             </div>    
             <div class="col-lg-3  col-md-6 col-sm-12  ">
               <div class="center cat1  ">
-               <img class="w-50" src={img2} alt=""/>
-               <h4>Interface Design</h4>
+               <img class="w-25" src={img2} alt=""/>
+               <h5>Interface Design</h5>
                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, suscipit?</small>
                </div>
             </div>    
             <div class="col-lg-3  col-md-6 col-sm-12 ">
               <div class="center cat1  ">
-               <img class="w-50" src={img3} alt=""/>
-               <h4>Prototyping</h4>
+               <img class="w-25" src={img3} alt=""/>
+               <h5>Prototyping</h5>
                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, suscipit?</small>
                </div>
             </div>    
             <div class="col-lg-3 col-md-6 col-sm-12 ">
               <div class="center cat1  ">
-               <img class="w-50" src={img4} alt=""/>
-               <h4>Illustration</h4>
+               <img class="w-25" src={img4} alt=""/>
+               <h5>Illustration</h5>
                <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, suscipit?</small>
                </div>
             </div>    
