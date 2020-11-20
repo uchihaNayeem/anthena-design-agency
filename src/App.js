@@ -3,19 +3,21 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  
+
 } from "react-router-dom";
 import PriceTable from './components/PriceTable/PriceTable';
 import Service from './components/Service/Service';
-import Navbar from './components/Navbar/Navbar';
+import RunningProject from './components/RuningProject/RunningProject';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route path="/">
-          <Navbar></Navbar>
+          <Header/>
           <Service></Service>
+          <RunningProject />
           <PriceTable></PriceTable>
         </Route>
         <Route path="/service">
