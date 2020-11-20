@@ -2,8 +2,8 @@
 .achievement-odd {
   width: 340px;
   border: none;
-  color: #707070;
-  background-color: white;
+  background-image: linear-gradient(to right, #1ad4bf, #06abee);
+  color: white;
 }
 .achievement-odd {
   border-radius: 0px 50px;
@@ -13,7 +13,7 @@
 }
 .achievement-even:hover,
 .achievement-odd:hover {
-  background-image: linear-gradient(to right, #1ad4bf, #06abee);
-  color: white;
+  background-color: white;
+  color: #707070;
   transition: all 1s;
 }

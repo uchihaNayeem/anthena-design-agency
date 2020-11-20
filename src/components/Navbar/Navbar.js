@@ -18,16 +18,15 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon" style={{ color: "pink" }}>
+          <span className="navbar-toggler-icon" style={{ color: "black" }}>
             <FontAwesomeIcon icon={faBars} />
           </span>
         </button>
-
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto mt-2">
             <li className="nav-item ">
               <a className="nav-link ml-3" href="#">
-                Home <span className="sr-only">(current)</span>
+                Home <span className="sr-only"></span>
               </a>
             </li>
             <li className="nav-item">
@@ -50,7 +49,7 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
-            <button className="btn customButton">Contact us</button>
+            <button className="btn customButton">Contact Us</button>
           </ul>
         </div>
       </nav>
