@@ -18,7 +18,10 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon" style={{ color: "black" }}>
+          <span
+            className="navbar-toggler-icon"
+            style={{ color: "black", textDecoration: "none" }}
+          >
             <FontAwesomeIcon icon={faBars} />
           </span>
         </button>
