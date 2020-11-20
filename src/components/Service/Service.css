@@ -1,0 +1,43 @@
+.card{
+
+  border: none;
+}
+
+.marginCustom{
+  margin:5px;
+}
+
+
+.grayText small{
+  color: lightgray;
+}
+
+
+.cat1, .cat2, .cat3, .cat4{
+  background-color: #f8fffb4a;
+  border-radius: 10px;
+  margin-top: 30px;
+
+}
+
+.center{
+  text-align: center;
+  
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* .center img{
+  width: 50px;
+  padding-bottom: 10px;
+} */
+
+.cat1:hover, .cat2:hover, .cat3:hover, .cat4:hover{
+  -webkit-box-shadow: -4px 20px 84px -12px rgba(0,0,0,0.31);
+  -moz-box-shadow: -4px 20px 84px -12px rgba(0,0,0,0.31);
+  box-shadow: -4px 20px 84px -12px rgba(0,0,0,0.31);
+  background-color: white;
+  border-radius: 27px 0px;
+}
+
+
