@@ -1,34 +1,33 @@
-.cardBorder:hover{
+.cardBorder:hover {
   border: 3px solid #3cedce;
 }
 
-.customButton{
+.customButton {
   border: none;
   border-radius: 27px 0px;
-  background-image: linear-gradient(to right,#1ad4bf, #06abee);
+  background-image: linear-gradient(to right, #1ad4bf, #06abee);
   padding: 0px;
   width: 133px;
   height: 44px;
   color: white;
 }
-.hrTag{
- border-top: 0px solid white ;
- height: 2px;
- background-image: linear-gradient(to right,#1ad4bf, #06abee);
- 
+.hrTag {
+  border-top: 0px solid white;
+  height: 2px;
+  background-image: linear-gradient(to right, #1ad4bf, #06abee);
 }
 
-.card{
+.card {
   height: 500px;
 }
 
-.size p{
+.size p {
   font-weight: bold;
 }
 
-.imageBg{
+.imageBg {
   background-image: url("../../Illustration/Group\ 46@2x.png");
   background-repeat: no-repeat;
   background-position: -650px -337px;
-  height: 769px;
+  background-size: cover;
 }
